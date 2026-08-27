@@ -15,6 +15,7 @@
 #include <cstring>
 #include "pose_math.h"
 #include "vr_host.h"
+#include "automation_hook.h"
 
 // Unreal FRotator: three int32 in declaration order Pitch, Yaw, Roll.
 // A full revolution is 65536 units.
@@ -63,6 +64,11 @@ static void __fastcall Hook_PlayerCalcView(void* self, void* edx, void** ViewAct
                                            void* CameraLocation,
                                            FRotator* CameraRotation) {
     s_trampoline(self, edx, ViewActor, CameraLocation, CameraRotation);
+    // Game-thread, once per frame, with a live APlayerController in `self` --
+    // the only safe place to call the engine's console dispatch from. Runs
+    // before the VR override so telemetry records the game's own camera.
+    AutomationTick(self, (const float*)CameraLocation,
+                   CameraRotation ? &CameraRotation->Pitch : nullptr);
     if (!CameraRotation) return;
     if (s_liveHmd) {
         // Full pose pipeline: HMD quaternion -> euler radians -> rotator units.
