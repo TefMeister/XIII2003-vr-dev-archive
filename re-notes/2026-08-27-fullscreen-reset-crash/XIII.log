@@ -1,0 +1,851 @@
+Log: Log file open, 08/27/26 13:47:21
+Init: Name subsystem initialized
+Init: Detected: Microsoft Windows NT 6.2 (Build: 9200)
+Init: Version: 829-145
+Init: Compiled: Oct 27 2004 14:32:53
+Init: Command line: 
+Init: Base directory: D:\Program Files (x86)\Steam\steamapps\common\XIII - Classic\system\
+Init: Character set: ANSI
+Log: Bound to GUI.dll
+Log: Bound to Core.dll
+Log: Bound to Engine.dll
+Log: Bound to XIIIMP.dll
+Log: Bound to XIDCine.dll
+Log: Bound to XIDPawn.dll
+Log: Bound to XIII.dll
+Log: Bound to Window.dll
+Init: Object subsystem initialized
+Init: Computer: DESKTOPV8GTSIR
+Init: User: Tefa
+Init: Memory total: Phys=2097151K Pagef=4194303K Virt=2097024K
+Init: Working set: 32000 / 159000
+Init: CPU Speed=3103.326290 MHz
+Init: CPU Page size=4096, Processors=8
+Init: CPU Detected: PentiumPro-class processor (GenuineIntel)
+Init: CPU Features: CMov FPU RDTSC PAE MMX KNI
+Init: Unreal engine initialized
+Log: Bound to WinDrv.dll
+Log: Bound to HXAUDIO.dll
+Init: Client initialized
+Log: Bound to D3DDrv.dll
+Init: Direct3D adapters detected:
+Log: 	nvldumd.dll/NVIDIA GeForce GTX 1660 SUPER
+Init: D3D Driver: MaxTextureBlendStages=8
+Init: D3D Driver: MaxSimultaneousTextures=8
+Init: D3D Driver: MaxActiveLights=8
+Init: D3D Driver: MaxPrimitiveCount=16777215
+Init: D3D Driver: MaxVertexIndex=16777215
+Init: D3D Driver: MaxStreams=16
+Init: D3D Driver: MaxStreamStride=255
+Init: D3D Driver: MaxVertexShaderConst=256
+Init: D3D Driver: D3DVSDT_UBYTE4 allowed: Yes.
+Init: D3D Driver: VertexShaderVersion=1.1
+Init: D3D Driver: PixelShaderVersion=1.4
+Init: D3D Driver: MaxUserClipPlanes=8
+Init: D3D Driver: AGP support detected
+Init: D3D Driver: Supports trilinear
+Init: D3D Driver: Supports BLENDDIFFUSEALPHA
+Init: D3D Driver: Supports non-power-of-2 textures
+Init: D3D Driver: Supports LOD biasing
+Init: D3D Driver: Supports Z biasing
+Init: D3D Driver: Supports D3DTOP_ADDSIGNED2X
+Init: D3D Driver: Supports D3DTOP_BUMPENVMAP
+Init: D3D Driver: Supports D3DTOP_BUMPENVMAPLUMINANCE
+Init: D3D Driver: Supports D3DTOP_DOTPRODUCT3
+Init: D3D Driver: Supports D3DTOP_MODULATEALPHA_ADDCOLOR
+Init: D3D Driver: Supports D3DTOP_MODULATECOLOR_ADDALPHA
+Init: D3D Driver: Textures (16384x16384), Max aspect 16384
+Init: Unreal Warfare Direct3D support - internal version: SB2
+Init: D3D Device: szDriver=nvldumd.dll
+Init: D3D Device: szDescription=NVIDIA GeForce GTX 1660 SUPER
+Init: D3D Device: wProduct=32
+Init: D3D Device: wVersion=0
+Init: D3D Device: wSubVersion=15
+Init: D3D Device: wBuild=6094
+Init: D3D Device: dwVendorId=4318
+Init: D3D Device: dwDeviceId=8644
+Init: D3D Device: dwSubSysId=1074992216
+Init: D3D Device: dwRevision=161
+Init: D3D Detected: NVidia video card
+Init: D3D Device: using cubemaps [with mipmaps]
+Log: Bound to IpDrv.dll
+Warning: Failed to load 'Class None.': Can't find 'ini:Engine.Engine.ForceFeedbackManager' in configuration file
+Warning: Can't find 'ini:Engine.Engine.ForceFeedbackManager' in configuration file
+Warning: Can't find 'ini:Engine.Engine.ForceFeedbackManager' in configuration file
+Log: Start LoadMap: Entry
+Log: Game class is 'GameInfo'
+Log: Level is Level Entry.MyLevel
+Log: *** WARNING - PATHS MAY NOT BE VALID ***
+Log: Bringing Level Entry.MyLevel up for play (120)...
+ScriptLog: _________________________________
+ScriptLog: InitGame: 
+ScriptLog:  Base Mutator is Entry.Mutator0
+Log: End LoadMap: Entry
+Log: Browse: mapmenu.unr?Name=XIII?Class=XIII.XIIIPlayerPawn?team=255
+Log: Start LoadMap: mapmenu.unr?Name=XIII?Class=XIII.XIIIPlayerPawn?team=255
+Warning: Missing Texture Texture XIIIMenuStart.Difficulty.difficultyfond03
+Warning: Missing Texture Texture XIIIMenuStart.Difficulty.difficultybouton
+Warning: Missing Texture Texture XIIIMenuStart.Difficulty.difficultyfond01
+Warning: Missing Texture Texture XIIIMenuStart.Difficulty.difficultyfond04
+Warning: Missing Texture Texture XIIIMenuStart.Difficulty.difficultyfond02
+Warning: Missing Texture Texture XIIIMenuStart.interface_options.vignette_options
+Warning: Missing Texture Texture XIIIMenuStart.audio_controls.audio_bouton
+Warning: Missing Texture Texture XIIIMenuStart.audio_controls.audio_consoleBG01
+Warning: Missing Texture Texture XIIIMenuStart.audio_controls.audio_consoleBG02
+Warning: Missing Texture Texture XIIIMenuStart.audio_controls.audio_consoleBG03
+Warning: Missing Texture Texture XIIIMenuStart.audio_controls.audio_consoleBG04
+Warning: Missing Texture Texture XIIIMenuStart.audio_controls.audio_PCBG01
+Warning: Missing Texture Texture XIIIMenuStart.audio_controls.audio_PCBG02
+Warning: Missing Texture Texture XIIIMenuStart.audio_controls.audio_PCBG03
+Warning: Missing Texture Texture XIIIMenuStart.audio_controls.audio_PCBG04
+Warning: Missing Texture Texture XIIIMenuStart.Control_Console.controlsxbox1
+Warning: Missing Texture Texture XIIIMenuStart.Control_Console.controlsxbox2
+Warning: Missing Texture Texture XIIIMenuStart.Control_Console.controlsxbox3
+Warning: Missing Texture Texture XIIIMenuStart.Control_Console.controlsxbox4
+Warning: Missing Texture Texture XIIIMenuStart.Video_Controls.boutonvideo2
+Warning: Missing Texture Texture XIIIMenuStart.Video_Controls.videofond01
+Warning: Missing Texture Texture XIIIMenuStart.Video_Controls.videofond02
+Warning: Missing Texture Texture XIIIMenuStart.Video_Controls.videofond03
+Warning: Missing Texture Texture XIIIMenuStart.Video_Controls.videofond04
+Warning: Missing Texture Texture XIIIMenuStart.interface_home.newgame02gris
+Warning: Missing Texture Texture XIIIMenuStart.interface_home.onlinegris
+Warning: Missing Texture Texture XIIIMenuStart.interface_home.newgame02
+Warning: Missing Texture Texture XIIIMenuStart.interface_home.online
+Warning: Missing Texture Texture XIIIMenuStart.Multi_rules.multi_BG04
+Warning: Missing Texture Texture XIIIMenuStart.Multi_rules.multi_BG05
+Warning: Missing Texture Texture XIIIMenuStart.interface_options.optionDifficultyWoooo
+Log: Collecting garbage
+Log: Purging garbage
+Log: Garbage: objects: 18256->18256; refs: 199532
+Log: Octree Warning (AddActor): DefaultPhysicsVolume3 Already In Octree.
+Log: Game class is 'XIIIGameInfo'
+Log: Level is Level MapMenu.MyLevel
+Log: *** WARNING - PATHS MAY NOT BE VALID ***
+Log: Bringing Level MapMenu.MyLevel up for play (120)...
+ScriptLog: Team 255
+ScriptLog: ### InitGame Options ?Name=XIII?Class=XIII.XIIIPlayerPawn?team=255 bLonePlayer=True
+ScriptLog: _________________________________
+ScriptLog: InitGame: ?Name=XIII?Class=XIII.XIIIPlayerPawn?team=255
+ScriptLog:  Base Mutator is MapMenu.XIIISoloMutator0
+ScriptLog: ### MapMenu.XIIIGameInfo0 PostBeginPlay
+Log: End LoadMap: mapmenu.unr?Name=XIII?Class=XIII.XIIIPlayerPawn?team=255
+Warning: Unreal Engine
+Warning: Copyright 2001 Epic Games, Inc.
+Warning:  
+Warning:  
+ScriptLog: CREATING ROOT WINDOW: Transient.InteractionMaster0.XIIIRootWindow0
+Warning: Failed to load 'Class XIDInterf.XIIIMultiControlsWindow': Failed to find object 'Class XIDInterf.XIIIMultiControlsWindow'
+ScriptLog: Unable to get menu class XIDInterf.XIIIMultiControlsWindow
+Warning: Failed to load 'Class XIDInterf.XIIIMenuInGameControlsWindow': Failed to find object 'Class XIDInterf.XIIIMenuInGameControlsWindow'
+ScriptLog: Unable to get menu class XIDInterf.XIIIMenuInGameControlsWindow
+ScriptLog: ### Login Portal  Options ?Name=XIII?Class=XIII.XIIIPlayerPawn?team=255
+ScriptLog: Team 255
+ScriptLog: Login: XIII
+ScriptWarning: XIIIPlayerController MapMenu.XIIIPlayerController0 (Function XIII.XIIIPlayerController.NoControl.BeginState:0007) Accessed None
+ScriptWarning: XIIIPlayerController MapMenu.XIIIPlayerController0 (Function Engine.PlayerController.PlayerWalking.BeginState:000A) Accessed None
+ScriptWarning: XIIIPlayerController MapMenu.XIIIPlayerController0 (Function Engine.PlayerController.PlayerWalking.BeginState:001A) Accessed None
+ScriptWarning: XIIIPlayerController MapMenu.XIIIPlayerController0 (Function Engine.PlayerController.PlayerWalking.BeginState:0044) Accessed None
+ScriptWarning: XIIIPlayerController MapMenu.XIIIPlayerController0 (Function Engine.PlayerController.PlayerWalking.BeginState:0062) Accessed None
+ScriptWarning: XIIIPlayerController MapMenu.XIIIPlayerController0 (Function Engine.PlayerController.PlayerWalking.BeginState:0075) Accessed None
+ScriptWarning: XIIIPlayerController MapMenu.XIIIPlayerController0 (Function XIII.XIIIPlayerController.NoControl.EndState:0007) Accessed None
+ScriptWarning: XIIIPlayerController MapMenu.XIIIPlayerController0 (Function XIII.XIIIPlayerController.NoControl.EndState:0029) Accessed None
+ScriptWarning: XIIIPlayerController MapMenu.XIIIPlayerController0 (Function XIII.XIIIPlayerController.NoControl.EndState:0031) Attempt to assigned variable through None
+ScriptLog: ### Restarting Player MapMenu.XIIIPlayerController0
+ScriptLog:   # Giving pawn MapMenu.XIIIPlayerPawn0
+ScriptLog: ClientRestart MapMenu.XIIIPlayerController0 Pawn=MapMenu.XIIIPlayerPawn0
+ScriptLog:   # TRIGGERING StartSpot.Event=None
+ScriptLog: SHOWMENU: MapMenu.XIIIPlayerController0
+ScriptLog: VPO: Transient.WindowsClient0.WindowsViewport0
+ScriptLog: myC: Transient.WindowsClient0.WindowsViewport0
+ScriptLog: Loneplayer: True
+ScriptLog: bSkinMenuDone :False
+ScriptLog: GUIPage::CheckResolution Setting GameResolution to 0x0
+Log: Possessed PlayerPawn: XIIIPlayerController MapMenu.XIIIPlayerController0
+Log: XIIIPlayerController0 got player WindowsViewport0
+ScriptLog: ### Accepting Inventory for MapMenu.XIIIPlayerPawn0
+ScriptWarning: XIIIGameInfo MapMenu.XIIIGameInfo0 (Function XIII.XIIIGameInfo.AcceptInventory:003B) Accessed None
+ScriptWarning: XIIIGameInfo MapMenu.XIIIGameInfo0 (Function XIII.XIIIGameInfo.AcceptInventory:00B2) Accessed None
+ScriptLog:   # PlayerPawn.Weapon=None Slave ? False
+ScriptLog:   # Setting min health (health=150) default=150 setting to 150
+ScriptLog:   # Cannot find XIIIThingsToSave
+Warning: Failed to load 'NULL': Can't resolve package name
+Warning: Failed to load 'Class None.': Can't resolve package name
+ScriptLog: ### bInventorySetUp True
+ScriptLog:   # Checking Dual Weapons...
+ScriptLog:   # BEF AmmoInv=MapMenu.FistsAmmo0 (1)
+ScriptLog:   # AFT AmmoInv=MapMenu.FistsAmmo0 (1)
+ScriptLog:   # PlayerPawn.Weapon=MapMenu.Fists0 Slave ? False
+ScriptLog: MP-] MatchStarting for MapMenu.XIIIPlayerController0
+ScriptLog: ### Restarting Player MapMenu.XIIIPlayerController0
+ScriptLog:   # Giving pawn MapMenu.XIIIPlayerPawn0
+ScriptLog: ClientRestart MapMenu.XIIIPlayerController0 Pawn=MapMenu.XIIIPlayerPawn0
+ScriptLog:   # TRIGGERING StartSpot.Event=None
+Init: Input system initialized for WindowsViewport0
+Log: Opened viewport
+Log: Enter SetRes: 800x600 Fullscreen 1
+Init: Best-match display mode: 800x600x32@75 (Error=0)
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Log: Creating device
+Init: D3D Driver: CreateDevice: will use hardware transform and lighting.
+Init: D3D Driver: CreateDevice: will use hardware vertexprocessing.
+ScriptLog: CREATING ROOT WINDOW: Transient.InteractionMaster0.XIIIRootWindow1
+Warning: Failed to load 'Class XIDInterf.XIIIMultiControlsWindow': Failed to find object 'Class XIDInterf.XIIIMultiControlsWindow'
+ScriptLog: Unable to get menu class XIDInterf.XIIIMultiControlsWindow
+Warning: Failed to load 'Class XIDInterf.XIIIMenuInGameControlsWindow': Failed to find object 'Class XIDInterf.XIIIMenuInGameControlsWindow'
+ScriptLog: Unable to get menu class XIDInterf.XIIIMenuInGameControlsWindow
+Init: Input system initialized for WindowsViewport1
+ScriptLog: CREATING ROOT WINDOW: Transient.InteractionMaster0.XIIIRootWindow2
+Warning: Failed to load 'Class XIDInterf.XIIIMultiControlsWindow': Failed to find object 'Class XIDInterf.XIIIMultiControlsWindow'
+ScriptLog: Unable to get menu class XIDInterf.XIIIMultiControlsWindow
+Warning: Failed to load 'Class XIDInterf.XIIIMenuInGameControlsWindow': Failed to find object 'Class XIDInterf.XIIIMenuInGameControlsWindow'
+ScriptLog: Unable to get menu class XIDInterf.XIIIMenuInGameControlsWindow
+Init: Input system initialized for WindowsViewport2
+ScriptLog: CREATING ROOT WINDOW: Transient.InteractionMaster0.XIIIRootWindow3
+Warning: Failed to load 'Class XIDInterf.XIIIMultiControlsWindow': Failed to find object 'Class XIDInterf.XIIIMultiControlsWindow'
+ScriptLog: Unable to get menu class XIDInterf.XIIIMultiControlsWindow
+Warning: Failed to load 'Class XIDInterf.XIIIMenuInGameControlsWindow': Failed to find object 'Class XIDInterf.XIIIMenuInGameControlsWindow'
+ScriptLog: Unable to get menu class XIDInterf.XIIIMenuInGameControlsWindow
+Init: Input system initialized for WindowsViewport3
+Init: HarmonX version : 1.24.2
+Log: SOUND : mem used for map MapMenu = 0 Kb
+Init: Game engine initialized
+Log: Startup time: 4.137436 seconds
+Log: Load Video : ..\Video\ubi.bik
+Log: Allocating 65536 byte dynamic vertex buffer.
+Log: Load Video : ..\Video\alien.bik
+Log: Load Video : ..\Video\Nvidia.bik
+ScriptLog: profile list successfully loaded
+ScriptLog: profile list successfully loaded
+ScriptLog: ### SetUpInitialInventory for MapMenu.XIIIPlayerPawn0
+ScriptLog: ### END SetUpInitialInventory
+ScriptLog: Testing goal
+ScriptLog: PROFILE: use profile
+ScriptLog: profile selected XIII
+Log: Load Video : ..\Video\cine00.bik
+ScriptLog: END STATE: Transient.InteractionMaster0.XIIIRootWindow0
+Log: URL: Adding default option Name=XIII
+Log: URL: Adding default option Class=XIII.XIIIPlayerPawn
+Log: URL: Adding default option team=255
+Log: Browse: Plage00?Name=XIII?Class=XIII.XIIIPlayerPawn?team=255
+Log: Start LoadMap: Plage00?Name=XIII?Class=XIII.XIIIPlayerPawn?team=255
+ScriptLog: PAWN DESTROY MapMenu.XIIIPlayerPawn0
+ScriptLog: PLAYER MapMenu.XIIIPlayerController0 PawnDied call bIsPlayer=True
+ScriptWarning: XIIIPlayerController MapMenu.XIIIPlayerController0 (Function XIII.XIIIPlayerController.NoControl.EndState:0007) Accessed None
+ScriptLog: PLAYER MapMenu.XIIIPlayerController0 destroyed !!
+Log: Collecting garbage
+Log: Purging garbage
+Log: 153887312.0ms Unloading: Package Plage00
+Log: 153887312.0ms Unloading: Package XIII_Bateau
+Log: 153887312.0ms Unloading: Package XIIIPlage
+Log: 153887312.0ms Unloading: Package Bateau_pack
+Log: 153887312.0ms Unloading: Package StaticPlage2
+Log: 153887312.0ms Unloading: Package Gameplay
+Log: Garbage: objects: 27288->22142; refs: 248584
+Log: Collecting garbage
+Log: Purging garbage
+Log: 153887936.0ms Unloading: Package MapMenu
+Log: Garbage: objects: 23281->23206; refs: 264713
+Log: Game class is 'XIIIGameInfo'
+Log: Level is Level Plage00.MyLevel
+Log: *** WARNING - PATHS MAY NOT BE VALID ***
+Log: Bringing Level Plage00.MyLevel up for play (120)...
+ScriptLog: Team 255
+ScriptLog: ### InitGame Options ?Name=XIII?Class=XIII.XIIIPlayerPawn?team=255 bLonePlayer=True
+ScriptLog: _________________________________
+ScriptLog: InitGame: ?Name=XIII?Class=XIII.XIIIPlayerPawn?team=255
+ScriptLog:  Base Mutator is Plage00.XIIISoloMutator0
+ScriptLog: Plage00.HelicoDeco1 HELICO SPAWN - Plage00.HelicoTopRotor0
+ScriptLog: Plage00.HelicoDeco1 HELICO SPAWN - Plage00.HelicoRearRotor0
+ScriptLog: Plage00.NiceHelico0 HELICO SPAWN - Plage00.NiceHelicoTopRotor0
+ScriptLog: Plage00.NiceHelico0 HELICO SPAWN - Plage00.NiceHelicoRearRotor0
+ScriptLog: ### Plage00.XIIIGameInfo1 PostBeginPlay
+Log: Spawning new actor for Viewport WindowsViewport0
+ScriptLog: ### Login Portal  Options ?Name=XIII?Class=XIII.XIIIPlayerPawn?team=255
+ScriptLog: Team 255
+ScriptLog: Login: XIII
+ScriptLog: PlayerWaiting BeginState Plage00.XIIIPlayerController1
+ScriptLog: PlayerWaiting EndState Plage00.XIIIPlayerController1
+ScriptLog: ### Restarting Player Plage00.XIIIPlayerController1
+ScriptLog:   # Giving pawn Plage00.XIIIPlayerPawn1
+ScriptLog: ClientRestart Plage00.XIIIPlayerController1 Pawn=Plage00.XIIIPlayerPawn1
+ScriptLog:   # TRIGGERING StartSpot.Event=Debut
+Log: Possessed PlayerPawn: XIIIPlayerController Plage00.XIIIPlayerController1
+Log: XIIIPlayerController1 got player WindowsViewport0
+ScriptLog: ### Accepting Inventory for Plage00.XIIIPlayerPawn1
+ScriptWarning: XIIIGameInfo Plage00.XIIIGameInfo1 (Function XIII.XIIIGameInfo.AcceptInventory:003B) Accessed None
+ScriptWarning: XIIIGameInfo Plage00.XIIIGameInfo1 (Function XIII.XIIIGameInfo.AcceptInventory:00B2) Accessed None
+ScriptLog:   # PlayerPawn.Weapon=None Slave ? False
+ScriptLog:   # Setting min health (health=150) default=150 setting to 150
+ScriptLog:   # Cannot find XIIIThingsToSave
+Warning: Failed to load 'NULL': Can't resolve package name
+Warning: Failed to load 'Class None.none': Can't resolve package name
+ScriptLog: ### bInventorySetUp True
+ScriptLog:   # Checking Dual Weapons...
+ScriptWarning: XIIIGameInfo Plage00.XIIIGameInfo1 (Function XIII.XIIIGameInfo.AcceptInventory:074C) Accessed None
+ScriptLog:   # PlayerPawn.Weapon=None Slave ? False
+ScriptLog: MP-] MatchStarting for Plage00.XIIIPlayerController1
+ScriptLog: ### Restarting Player Plage00.XIIIPlayerController1
+ScriptLog:   # Giving pawn Plage00.XIIIPlayerPawn1
+ScriptLog: ClientRestart Plage00.XIIIPlayerController1 Pawn=Plage00.XIIIPlayerPawn1
+ScriptLog:   # TRIGGERING StartSpot.Event=Debut
+Log: SOUND : mem used for map plage00 = 0 Kb
+Log: End LoadMap: Plage00?Name=XIII?Class=XIII.XIIIPlayerPawn?team=255
+ScriptLog: :SAVE: Plage00.XIIISaveGameTrigger0
+ScriptLog:    -: XIIIThingsToSave have tag Debut
+ScriptLog:  -- Begin Inventory List
+ScriptLog:    Inv=Plage00.XIIILeftHand1
+ScriptLog:    Inv=Plage00.XIIIThingsToSave0 charges=0
+ScriptLog:  -- End Inventory List
+Log: Exporting travelling actor of class XIII.XIIIPlayerPawn
+Log: Exporting travelling actor of class XIII.XIIILeftHand
+Log: Exporting travelling actor of class XIII.XIIIThingsToSave
+ScriptLog:  ---: Game Saved at checkpoint, TeleporterName=PlayerStart & SaveDescription=Brighton Beach 1
+ScriptLog: :ENDSAVE:
+ScriptLog: ### SetUpInitialInventory for Plage00.XIIIPlayerPawn1
+ScriptLog: ### END SetUpInitialInventory
+ScriptLog: Display Goal 0 delay=False
+ScriptLog: Testing goal
+ScriptLog:   > Objective 0 Primary ? True complete ?False bAntiGoal ?False
+Log: Allocating 65536 byte dynamic vertex buffer.
+Log: Allocating 65536 byte dynamic vertex buffer.
+Log: Allocating 16384 byte dynamic index buffer.
+ScriptLog: SHOWMENU: Plage00.XIIIPlayerController1
+ScriptLog: VPO: Transient.WindowsClient0.WindowsViewport0
+ScriptLog: myC: Transient.WindowsClient0.WindowsViewport0
+ScriptLog: IN ShowInfo
+ScriptLog: NO BRIEFING
+ScriptLog: INGAME
+ScriptLog: Loneplayer: True
+ScriptLog: bSkinMenuDone :False
+ScriptLog: END STATE: Transient.InteractionMaster0.XIIIRootWindow0
+Log: URL: Adding default option Name=XIII
+Log: URL: Adding default option Class=XIII.XIIIPlayerPawn
+Log: URL: Adding default option team=255
+Log: Browse: MapMenu?Name=XIII?Class=XIII.XIIIPlayerPawn?team=255
+Log: Start LoadMap: MapMenu?Name=XIII?Class=XIII.XIIIPlayerPawn?team=255
+Warning: Missing Texture Texture XIIIMenuStart.Difficulty.difficultyfond03
+Warning: Missing Texture Texture XIIIMenuStart.Difficulty.difficultybouton
+Warning: Missing Texture Texture XIIIMenuStart.Difficulty.difficultyfond01
+Warning: Missing Texture Texture XIIIMenuStart.Difficulty.difficultyfond04
+Warning: Missing Texture Texture XIIIMenuStart.Difficulty.difficultyfond02
+Warning: Missing Texture Texture XIIIMenuStart.interface_options.vignette_options
+Warning: Missing Texture Texture XIIIMenuStart.audio_controls.audio_bouton
+Warning: Missing Texture Texture XIIIMenuStart.audio_controls.audio_consoleBG01
+Warning: Missing Texture Texture XIIIMenuStart.audio_controls.audio_consoleBG02
+Warning: Missing Texture Texture XIIIMenuStart.audio_controls.audio_consoleBG03
+Warning: Missing Texture Texture XIIIMenuStart.audio_controls.audio_consoleBG04
+Warning: Missing Texture Texture XIIIMenuStart.audio_controls.audio_PCBG01
+Warning: Missing Texture Texture XIIIMenuStart.audio_controls.audio_PCBG02
+Warning: Missing Texture Texture XIIIMenuStart.audio_controls.audio_PCBG03
+Warning: Missing Texture Texture XIIIMenuStart.audio_controls.audio_PCBG04
+Warning: Missing Texture Texture XIIIMenuStart.Control_Console.controlsxbox1
+Warning: Missing Texture Texture XIIIMenuStart.Control_Console.controlsxbox2
+Warning: Missing Texture Texture XIIIMenuStart.Control_Console.controlsxbox3
+Warning: Missing Texture Texture XIIIMenuStart.Control_Console.controlsxbox4
+Warning: Missing Texture Texture XIIIMenuStart.Video_Controls.boutonvideo2
+Warning: Missing Texture Texture XIIIMenuStart.Video_Controls.videofond01
+Warning: Missing Texture Texture XIIIMenuStart.Video_Controls.videofond02
+Warning: Missing Texture Texture XIIIMenuStart.Video_Controls.videofond03
+Warning: Missing Texture Texture XIIIMenuStart.Video_Controls.videofond04
+Warning: Missing Texture Texture XIIIMenuStart.interface_home.newgame02gris
+Warning: Missing Texture Texture XIIIMenuStart.interface_home.onlinegris
+Warning: Missing Texture Texture XIIIMenuStart.interface_home.newgame02
+Warning: Missing Texture Texture XIIIMenuStart.interface_home.online
+Warning: Missing Texture Texture XIIIMenuStart.Multi_rules.multi_BG04
+Warning: Missing Texture Texture XIIIMenuStart.Multi_rules.multi_BG05
+Warning: Missing Texture Texture XIIIMenuStart.interface_options.optionDifficultyWoooo
+ScriptLog: PAWN DESTROY Plage00.XIIIPlayerPawn1
+ScriptLog: PLAYER Plage00.XIIIPlayerController1 PawnDied call bIsPlayer=True
+ScriptWarning: XIIIPlayerController Plage00.XIIIPlayerController1 (Function XIII.XIIIPlayerController.NoMove.EndState:0017) Accessed None
+ScriptLog: PLAYER Plage00.XIIIPlayerController1 destroyed !!
+Log: Collecting garbage
+Log: Purging garbage
+Log: 153892960.0ms Unloading: Package MapMenu
+Log: Garbage: objects: 23341->22175; refs: 249926
+Warning: Missing Texture Texture XIIIMenuStart.Difficulty.difficultyfond03
+Warning: Missing Texture Texture XIIIMenuStart.Difficulty.difficultybouton
+Warning: Missing Texture Texture XIIIMenuStart.Difficulty.difficultyfond01
+Warning: Missing Texture Texture XIIIMenuStart.Difficulty.difficultyfond04
+Warning: Missing Texture Texture XIIIMenuStart.Difficulty.difficultyfond02
+Warning: Missing Texture Texture XIIIMenuStart.interface_options.vignette_options
+Warning: Missing Texture Texture XIIIMenuStart.audio_controls.audio_bouton
+Warning: Missing Texture Texture XIIIMenuStart.audio_controls.audio_consoleBG01
+Warning: Missing Texture Texture XIIIMenuStart.audio_controls.audio_consoleBG02
+Warning: Missing Texture Texture XIIIMenuStart.audio_controls.audio_consoleBG03
+Warning: Missing Texture Texture XIIIMenuStart.audio_controls.audio_consoleBG04
+Warning: Missing Texture Texture XIIIMenuStart.audio_controls.audio_PCBG01
+Warning: Missing Texture Texture XIIIMenuStart.audio_controls.audio_PCBG02
+Warning: Missing Texture Texture XIIIMenuStart.audio_controls.audio_PCBG03
+Warning: Missing Texture Texture XIIIMenuStart.audio_controls.audio_PCBG04
+Warning: Missing Texture Texture XIIIMenuStart.Control_Console.controlsxbox1
+Warning: Missing Texture Texture XIIIMenuStart.Control_Console.controlsxbox2
+Warning: Missing Texture Texture XIIIMenuStart.Control_Console.controlsxbox3
+Warning: Missing Texture Texture XIIIMenuStart.Control_Console.controlsxbox4
+Warning: Missing Texture Texture XIIIMenuStart.Video_Controls.boutonvideo2
+Warning: Missing Texture Texture XIIIMenuStart.Video_Controls.videofond01
+Warning: Missing Texture Texture XIIIMenuStart.Video_Controls.videofond02
+Warning: Missing Texture Texture XIIIMenuStart.Video_Controls.videofond03
+Warning: Missing Texture Texture XIIIMenuStart.Video_Controls.videofond04
+Warning: Missing Texture Texture XIIIMenuStart.interface_home.newgame02gris
+Warning: Missing Texture Texture XIIIMenuStart.interface_home.onlinegris
+Warning: Missing Texture Texture XIIIMenuStart.interface_home.newgame02
+Warning: Missing Texture Texture XIIIMenuStart.interface_home.online
+Warning: Missing Texture Texture XIIIMenuStart.Multi_rules.multi_BG04
+Warning: Missing Texture Texture XIIIMenuStart.Multi_rules.multi_BG05
+Warning: Missing Texture Texture XIIIMenuStart.interface_options.optionDifficultyWoooo
+Log: Collecting garbage
+Log: Purging garbage
+Log: 153892992.0ms Unloading: Package Gameplay
+Log: 153892992.0ms Unloading: Package StaticPlage2
+Log: 153892992.0ms Unloading: Package Bateau_pack
+Log: 153892992.0ms Unloading: Package XIIIPlage
+Log: 153892992.0ms Unloading: Package XIII_Bateau
+Log: 153892992.0ms Unloading: Package Plage00
+Log: Garbage: objects: 22546->22508; refs: 254510
+Log: Game class is 'XIIIGameInfo'
+Log: Level is Level MapMenu.MyLevel
+Log: *** WARNING - PATHS MAY NOT BE VALID ***
+Log: Bringing Level MapMenu.MyLevel up for play (120)...
+ScriptLog: Team 255
+ScriptLog: ### InitGame Options ?Name=XIII?Class=XIII.XIIIPlayerPawn?team=255 bLonePlayer=True
+ScriptLog: _________________________________
+ScriptLog: InitGame: ?Name=XIII?Class=XIII.XIIIPlayerPawn?team=255
+ScriptLog:  Base Mutator is MapMenu.XIIISoloMutator0
+ScriptLog: ### MapMenu.XIIIGameInfo2 PostBeginPlay
+Log: Spawning new actor for Viewport WindowsViewport0
+ScriptLog: ### Login Portal  Options ?Name=XIII?Class=XIII.XIIIPlayerPawn?team=255
+ScriptLog: Team 255
+ScriptLog: Login: XIII
+ScriptWarning: XIIIPlayerController MapMenu.XIIIPlayerController2 (Function XIII.XIIIPlayerController.NoControl.BeginState:0007) Accessed None
+ScriptWarning: XIIIPlayerController MapMenu.XIIIPlayerController2 (Function Engine.PlayerController.PlayerWalking.BeginState:000A) Accessed None
+ScriptWarning: XIIIPlayerController MapMenu.XIIIPlayerController2 (Function Engine.PlayerController.PlayerWalking.BeginState:001A) Accessed None
+ScriptWarning: XIIIPlayerController MapMenu.XIIIPlayerController2 (Function Engine.PlayerController.PlayerWalking.BeginState:0044) Accessed None
+ScriptWarning: XIIIPlayerController MapMenu.XIIIPlayerController2 (Function Engine.PlayerController.PlayerWalking.BeginState:0062) Accessed None
+ScriptWarning: XIIIPlayerController MapMenu.XIIIPlayerController2 (Function Engine.PlayerController.PlayerWalking.BeginState:0075) Accessed None
+ScriptWarning: XIIIPlayerController MapMenu.XIIIPlayerController2 (Function XIII.XIIIPlayerController.NoControl.EndState:0007) Accessed None
+ScriptWarning: XIIIPlayerController MapMenu.XIIIPlayerController2 (Function XIII.XIIIPlayerController.NoControl.EndState:0029) Accessed None
+ScriptWarning: XIIIPlayerController MapMenu.XIIIPlayerController2 (Function XIII.XIIIPlayerController.NoControl.EndState:0031) Attempt to assigned variable through None
+ScriptLog: ### Restarting Player MapMenu.XIIIPlayerController2
+ScriptLog:   # Giving pawn MapMenu.XIIIPlayerPawn2
+ScriptLog: ClientRestart MapMenu.XIIIPlayerController2 Pawn=MapMenu.XIIIPlayerPawn2
+ScriptLog:   # TRIGGERING StartSpot.Event=None
+ScriptLog: SHOWMENU: MapMenu.XIIIPlayerController2
+ScriptLog: VPO: Transient.WindowsClient0.WindowsViewport0
+ScriptLog: myC: Transient.WindowsClient0.WindowsViewport0
+ScriptLog: Loneplayer: True
+ScriptLog: bSkinMenuDone :False
+Log: Possessed PlayerPawn: XIIIPlayerController MapMenu.XIIIPlayerController2
+Log: XIIIPlayerController2 got player WindowsViewport0
+ScriptLog: ### Accepting Inventory for MapMenu.XIIIPlayerPawn2
+ScriptWarning: XIIIGameInfo MapMenu.XIIIGameInfo2 (Function XIII.XIIIGameInfo.AcceptInventory:003B) Accessed None
+ScriptWarning: XIIIGameInfo MapMenu.XIIIGameInfo2 (Function XIII.XIIIGameInfo.AcceptInventory:00B2) Accessed None
+ScriptLog:   # PlayerPawn.Weapon=None Slave ? False
+ScriptLog:   # Setting min health (health=150) default=150 setting to 150
+ScriptLog:   # Cannot find XIIIThingsToSave
+Warning: Failed to load 'NULL': Can't resolve package name
+Warning: Failed to load 'Class None.': Can't resolve package name
+ScriptLog: ### bInventorySetUp True
+ScriptLog:   # Checking Dual Weapons...
+ScriptLog:   # BEF AmmoInv=MapMenu.FistsAmmo7 (1)
+ScriptLog:   # AFT AmmoInv=MapMenu.FistsAmmo7 (1)
+ScriptLog:   # PlayerPawn.Weapon=MapMenu.Fists7 Slave ? False
+ScriptLog: MP-] MatchStarting for MapMenu.XIIIPlayerController2
+ScriptLog: ### Restarting Player MapMenu.XIIIPlayerController2
+ScriptLog:   # Giving pawn MapMenu.XIIIPlayerPawn2
+ScriptLog: ClientRestart MapMenu.XIIIPlayerController2 Pawn=MapMenu.XIIIPlayerPawn2
+ScriptLog:   # TRIGGERING StartSpot.Event=None
+Log: SOUND : mem used for map MapMenu = 0 Kb
+Log: End LoadMap: MapMenu?Name=XIII?Class=XIII.XIIIPlayerPawn?team=255
+ScriptLog: ### SetUpInitialInventory for MapMenu.XIIIPlayerPawn2
+ScriptLog: ### END SetUpInitialInventory
+ScriptLog: Testing goal
+Log: Allocating 65536 byte dynamic vertex buffer.
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptLog: WinWidth=275.000000, btnw=88.000000, BetweenBtnW=93.500000
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed array 'Controls' out of bounds (-1/7)
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+ScriptWarning: XIIIMenuLoadGameWindow Transient.XIIIMenuLoadGameWindow0 (Function XIDInterf.XIIIMenuLoadGameWindow.Paint:0347) Accessed None
+Log: Load Video : ..\Video\cine00.bik
+ScriptLog: END STATE: Transient.InteractionMaster0.XIIIRootWindow0
+Log: URL: Adding default option Name=XIII
+Log: URL: Adding default option Class=XIII.XIIIPlayerPawn
+Log: URL: Adding default option team=255
+Log: Browse: Plage00?Name=XIII?Class=XIII.XIIIPlayerPawn?team=255
+Log: Start LoadMap: Plage00?Name=XIII?Class=XIII.XIIIPlayerPawn?team=255
+ScriptLog: PAWN DESTROY MapMenu.XIIIPlayerPawn2
+ScriptLog: PLAYER MapMenu.XIIIPlayerController2 PawnDied call bIsPlayer=True
+ScriptWarning: XIIIPlayerController MapMenu.XIIIPlayerController2 (Function XIII.XIIIPlayerController.NoControl.EndState:0007) Accessed None
+ScriptLog: PLAYER MapMenu.XIIIPlayerController2 destroyed !!
+Log: Collecting garbage
+Log: Purging garbage
+Log: 153918112.0ms Unloading: Package Plage00
+Log: 153918112.0ms Unloading: Package XIII_Bateau
+Log: 153918112.0ms Unloading: Package XIIIPlage
+Log: 153918112.0ms Unloading: Package Bateau_pack
+Log: 153918112.0ms Unloading: Package StaticPlage2
+Log: 153918112.0ms Unloading: Package Gameplay
+Log: Garbage: objects: 27305->22142; refs: 248582
+Log: Collecting garbage
+Log: Purging garbage
+Log: 153918224.0ms Unloading: Package MapMenu
+Log: Garbage: objects: 23281->23206; refs: 264714
+Log: Game class is 'XIIIGameInfo'
+Log: Level is Level Plage00.MyLevel
+Log: *** WARNING - PATHS MAY NOT BE VALID ***
+Log: Bringing Level Plage00.MyLevel up for play (120)...
+ScriptLog: Team 255
+ScriptLog: ### InitGame Options ?Name=XIII?Class=XIII.XIIIPlayerPawn?team=255 bLonePlayer=True
+ScriptLog: _________________________________
+ScriptLog: InitGame: ?Name=XIII?Class=XIII.XIIIPlayerPawn?team=255
+ScriptLog:  Base Mutator is Plage00.XIIISoloMutator0
+ScriptLog: Plage00.HelicoDeco1 HELICO SPAWN - Plage00.HelicoTopRotor0
+ScriptLog: Plage00.HelicoDeco1 HELICO SPAWN - Plage00.HelicoRearRotor0
+ScriptLog: Plage00.NiceHelico0 HELICO SPAWN - Plage00.NiceHelicoTopRotor0
+ScriptLog: Plage00.NiceHelico0 HELICO SPAWN - Plage00.NiceHelicoRearRotor0
+ScriptLog: ### Plage00.XIIIGameInfo3 PostBeginPlay
+Log: Spawning new actor for Viewport WindowsViewport0
+ScriptLog: ### Login Portal  Options ?Name=XIII?Class=XIII.XIIIPlayerPawn?team=255
+ScriptLog: Team 255
+ScriptLog: Login: XIII
+ScriptLog: PlayerWaiting BeginState Plage00.XIIIPlayerController3
+ScriptLog: PlayerWaiting EndState Plage00.XIIIPlayerController3
+ScriptLog: ### Restarting Player Plage00.XIIIPlayerController3
+ScriptLog:   # Giving pawn Plage00.XIIIPlayerPawn3
+ScriptLog: ClientRestart Plage00.XIIIPlayerController3 Pawn=Plage00.XIIIPlayerPawn3
+ScriptLog:   # TRIGGERING StartSpot.Event=Debut
+Log: Possessed PlayerPawn: XIIIPlayerController Plage00.XIIIPlayerController3
+Log: XIIIPlayerController3 got player WindowsViewport0
+ScriptLog: ### Accepting Inventory for Plage00.XIIIPlayerPawn3
+ScriptWarning: XIIIGameInfo Plage00.XIIIGameInfo3 (Function XIII.XIIIGameInfo.AcceptInventory:003B) Accessed None
+ScriptWarning: XIIIGameInfo Plage00.XIIIGameInfo3 (Function XIII.XIIIGameInfo.AcceptInventory:00B2) Accessed None
+ScriptLog:   # PlayerPawn.Weapon=None Slave ? False
+ScriptLog:   # Setting min health (health=150) default=150 setting to 150
+ScriptLog:   # Cannot find XIIIThingsToSave
+Warning: Failed to load 'NULL': Can't resolve package name
+Warning: Failed to load 'Class None.none': Can't resolve package name
+ScriptLog: ### bInventorySetUp True
+ScriptLog:   # Checking Dual Weapons...
+ScriptWarning: XIIIGameInfo Plage00.XIIIGameInfo3 (Function XIII.XIIIGameInfo.AcceptInventory:074C) Accessed None
+ScriptLog:   # PlayerPawn.Weapon=None Slave ? False
+ScriptLog: MP-] MatchStarting for Plage00.XIIIPlayerController3
+ScriptLog: ### Restarting Player Plage00.XIIIPlayerController3
+ScriptLog:   # Giving pawn Plage00.XIIIPlayerPawn3
+ScriptLog: ClientRestart Plage00.XIIIPlayerController3 Pawn=Plage00.XIIIPlayerPawn3
+ScriptLog:   # TRIGGERING StartSpot.Event=Debut
+Log: SOUND : mem used for map plage00 = 0 Kb
+Log: End LoadMap: Plage00?Name=XIII?Class=XIII.XIIIPlayerPawn?team=255
+ScriptLog: :SAVE: Plage00.XIIISaveGameTrigger0
+ScriptLog:    -: XIIIThingsToSave have tag Debut
+ScriptLog:  -- Begin Inventory List
+ScriptLog:    Inv=Plage00.XIIILeftHand3
+ScriptLog:    Inv=Plage00.XIIIThingsToSave1 charges=0
+ScriptLog:  -- End Inventory List
+Log: Exporting travelling actor of class XIII.XIIIPlayerPawn
+Log: Exporting travelling actor of class XIII.XIIILeftHand
+Log: Exporting travelling actor of class XIII.XIIIThingsToSave
+ScriptLog:  ---: Game Saved at checkpoint, TeleporterName=PlayerStart & SaveDescription=Brighton Beach 1
+ScriptLog: :ENDSAVE:
+ScriptLog: ### SetUpInitialInventory for Plage00.XIIIPlayerPawn3
+ScriptLog: ### END SetUpInitialInventory
+ScriptLog: Display Goal 0 delay=False
+ScriptLog: Testing goal
+ScriptLog:   > Objective 0 Primary ? True complete ?False bAntiGoal ?False
+Log: Allocating 65536 byte dynamic vertex buffer.
+Log: Allocating 65536 byte dynamic vertex buffer.
+Log: Allocating 16384 byte dynamic index buffer.
+ScriptLog: SHOWMENU: Plage00.XIIIPlayerController3
+ScriptLog: VPO: Transient.WindowsClient0.WindowsViewport0
+ScriptLog: myC: Transient.WindowsClient0.WindowsViewport0
+ScriptLog: IN ShowInfo
+ScriptLog: NO BRIEFING
+ScriptLog: INGAME
+ScriptLog: Loneplayer: True
+ScriptLog: bSkinMenuDone :False
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+ScriptWarning: XIIIMenuSave Transient.XIIIMenuSave0 (Function XIDInterf.XIIIMenuSave.Paint:0208) Accessed None
+Log: Data saved in slot 1 took 293 bytes where 2048 could be used
+ScriptLog: END STATE: Transient.InteractionMaster0.XIIIRootWindow0
+Log: Viewport WindowsViewport0: WM_DisplayChange
+Log: AttemptFullscreen
+Log: Enter SetRes: 800x600 Fullscreen 1
+Init: Best-match display mode: 800x600x32@75 (Error=0)
+Log: Using back-buffer format 22(32-bit)
+Log: Using depth-buffer format 75(32-bit)
+Critical: UGameEngine::Exec
+Critical: UGameEngine::Draw
+Critical: UWindowsViewport::Repaint
+Critical: UWindowsClient::Tick
+Critical: ClientTick
+Critical: UGameEngine::Tick
+Critical: UpdateWorld
+Critical: MainLoop
+Exit: Executing UObject::StaticShutdownAfterError
+Exit: Executing UWindowsClient::ShutdownAfterError
+Exit: UHXAUDIOSubsystem::ShutdownAfterError
+
+Localization: No localization: Window.IDDIALOG_CrashBox.IDC_CrashBox (int)
+Exit: Exiting.
+Uninitialized: Name subsystem shut down
+Uninitialized: Log file closed, 08/27/26 13:50:38
