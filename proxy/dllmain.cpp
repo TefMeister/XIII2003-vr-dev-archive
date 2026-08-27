@@ -7,6 +7,7 @@
 #include "steamvr_host.h"
 #include "shutdown_hook.h"
 #include "focus_hook.h"
+#include "automation_hook.h"
 
 // Force the original render-device DLL to load so its static/global
 // constructors run and self-register UD3DRenderDevice into the engine's
@@ -49,6 +50,11 @@ BOOL APIENTRY DllMain(HMODULE hModule, DWORD reason, LPVOID lpReserved) {
         // installed when a VR host is enabled ([VR] KeepRenderingUnfocused,
         // default on).
         InstallFocusHook();
+        // Automation harness (0.2.8): external console-command injection via a
+        // drop-file plus per-tick telemetry, gated behind [VR] Automation=1.
+        // Must come after InstallCameraHook -- the camera hook is its per-frame
+        // call site. Resolves engine exports here; the tick does the work.
+        InstallAutomationHook();
     } else if (reason == DLL_PROCESS_DETACH) {
         // Last-resort only -- the real teardown happens in the ExitProcess
         // hook. Here the loader lock is held: never join threads or touch

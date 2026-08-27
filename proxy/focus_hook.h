@@ -7,8 +7,9 @@
 // focus. This hook patches user32!GetForegroundWindow in XIII.EXE's IAT only,
 // reporting the game's device window while a foreign window is foreground.
 //
-// Installed only when a VR host is enabled AND [VR] KeepRenderingUnfocused=1
-// (the default); with VR off the stock behavior is untouched.
+// Installed only when a VR host or the automation harness is enabled AND
+// [VR] KeepRenderingUnfocused=1 (the default); with both off the stock
+// behavior is untouched.
 
 #pragma once
 #include <windows.h>

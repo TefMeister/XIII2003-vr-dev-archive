@@ -52,9 +52,14 @@ static UINT ReadVrInt(const char* key, UINT def) {
 }
 
 void InstallFocusHook() {
-    const bool vrConsumer =
-        ReadVrInt("SteamVR", 0) != 0 || ReadVrInt("OpenXR", 0) != 0;
-    if (!vrConsumer) return;  // stock behavior without a VR host
+    // The automation harness needs the engine ticking while unfocused for the
+    // same reason a VR host does: XIII stops calling Engine->Tick when it is
+    // not the foreground window, which would stall the command poll exactly
+    // when nobody is at the keyboard.
+    const bool needsUnfocusedTick =
+        ReadVrInt("SteamVR", 0) != 0 || ReadVrInt("OpenXR", 0) != 0 ||
+        ReadVrInt("Automation", 0) != 0;
+    if (!needsUnfocusedTick) return;  // stock behavior otherwise
     if (ReadVrInt("KeepRenderingUnfocused", 1) == 0) {
         Log("disabled via [VR] KeepRenderingUnfocused=0");
         return;
