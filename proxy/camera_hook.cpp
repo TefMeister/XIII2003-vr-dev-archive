@@ -64,11 +64,13 @@ static void __fastcall Hook_PlayerCalcView(void* self, void* edx, void** ViewAct
                                            void* CameraLocation,
                                            FRotator* CameraRotation) {
     s_trampoline(self, edx, ViewActor, CameraLocation, CameraRotation);
-    // Game-thread, once per frame, with a live APlayerController in `self` --
-    // the only safe place to call the engine's console dispatch from. Runs
-    // before the VR override so telemetry records the game's own camera.
-    AutomationTick(self, (const float*)CameraLocation,
-                   CameraRotation ? &CameraRotation->Pitch : nullptr);
+    // TELEMETRY ONLY. This function is called from inside UGameEngine::Draw,
+    // so it must never dispatch console commands -- doing that in 0.2.8 GPF'd
+    // inside UGameEngine::Exec. Commands drain from APlayerController::Tick
+    // instead (see automation_hook.h). Runs before the VR override so
+    // telemetry records the game's own camera.
+    AutomationTelemetryTick((const float*)CameraLocation,
+                            CameraRotation ? &CameraRotation->Pitch : nullptr);
     if (!CameraRotation) return;
     if (s_liveHmd) {
         // Full pose pipeline: HMD quaternion -> euler radians -> rotator units.
