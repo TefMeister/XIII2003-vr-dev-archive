@@ -41,6 +41,8 @@ static const size_t  kPCTickStealLen   = sizeof(kPCTickPrologue);  // 5
 static bool                s_enabled       = false;
 static Exec_t              s_engineExec    = nullptr;
 static ScriptConsoleExec_t s_scriptExec    = nullptr;
+static void*               s_cheatVtbl     = nullptr;  // ??_7UCheatManager@@6B@
+static void*               s_cheatMgr      = nullptr;  // cached, re-validated
 static PCTick_t            s_pcTickTramp   = nullptr;
 static void**              s_gEngine       = nullptr;  // &GEngine
 static void**              s_gLog          = nullptr;  // &GLog
@@ -108,6 +110,44 @@ static void* ValidOutputDevice() {
     return ar;
 }
 
+// The cheat commands (God/Fly/Ghost/Walk/Teleport/MaxAmmo/HealMe/PlayersOnly)
+// are exec functions on UCheatManager, NOT on the PlayerController -- proven
+// live: Fov and BehindView resolve on the controller, every cheat above comes
+// back unhandled. The console reaches them by hopping to the controller's
+// CheatManager; calling UObject::ScriptConsoleExec directly does not.
+//
+// The CheatManager is a field on APlayerController, but its offset is a build
+// detail we would have to hardcode and could not verify. Instead the object is
+// found by IDENTITY: UCheatManager's vtable is exported, so scan the
+// controller's fields for a pointer whose target's vtable is exactly that.
+// Self-validating (a false positive would have to be a different object with
+// the identical vtable) and immune to field reordering between builds.
+static void* FindCheatManager(void* pc) {
+    if (!s_cheatVtbl || !pc) return nullptr;
+    // Re-validate the cache: the CheatManager is destroyed on level change.
+    if (s_cheatMgr && IsReadablePtr(s_cheatMgr, sizeof(void*)) &&
+        *(void**)s_cheatMgr == s_cheatVtbl)
+        return s_cheatMgr;
+    s_cheatMgr = nullptr;
+
+    const size_t kScanBytes = 0x600;  // APlayerController is a few hundred bytes
+    if (!IsReadablePtr(pc, kScanBytes)) return nullptr;
+    void** fields = (void**)pc;
+    for (size_t i = 0; i < kScanBytes / sizeof(void*); ++i) {
+        void* cand = fields[i];
+        if (!cand || !IsReadablePtr(cand, sizeof(void*))) continue;
+        if (*(void**)cand != s_cheatVtbl) continue;
+        s_cheatMgr = cand;
+        char b[96];
+        _snprintf_s(b, sizeof(b), _TRUNCATE,
+                    "CheatManager found at controller+0x%X", (unsigned)(i * sizeof(void*)));
+        Log(b);
+        AppendLog(b);
+        return cand;
+    }
+    return nullptr;
+}
+
 static std::string ReadAndClearCommandFile() {
     FILE* f = nullptr;
     if (fopen_s(&f, s_cmdPath, "r") != 0 || !f) return std::string();
@@ -144,6 +184,19 @@ static void RunCommand(void* playerController, const std::string& cmd) {
     if (playerController && s_scriptExec) {
         handled = s_scriptExec(playerController, nullptr, cmd.c_str(), ar, playerController);
         if (handled) by = "playercontroller";
+    }
+
+    // Tier 2: the controller's CheatManager -- God/Fly/Ghost/Walk/Teleport/etc.
+    if (!handled) {
+        void* cheat = FindCheatManager(playerController);
+        if (cheat && s_scriptExec) {
+            _snprintf_s(line, sizeof(line), _TRUNCATE, "exec BEGIN cheat  \"%s\"", cmd.c_str());
+            AppendLog(line);
+            handled = s_scriptExec(cheat, nullptr, cmd.c_str(), ar, playerController);
+            if (handled) by = "cheatmanager";
+        } else if (!cheat) {
+            AppendLog("  (no CheatManager on this controller)");
+        }
     }
 
     if (!handled && s_engineExecOk && s_engineExec && s_gEngine &&
@@ -255,6 +308,9 @@ void InstallAutomationHook() {
     s_scriptExec = (ScriptConsoleExec_t)GetProcAddress(
         hCore, "?ScriptConsoleExec@UObject@@UAEHPBDAAVFOutputDevice@@PAV1@@Z");
     s_gLog = (void**)GetProcAddress(hCore, "?GLog@@3PAVFOutputDevice@@A");
+    // The vtable symbol IS the vtable, so its address is what an instance's
+    // first word points at -- no extra dereference.
+    s_cheatVtbl = (void*)GetProcAddress(hEngine, "??_7UCheatManager@@6B@");
 
     if (!s_gLog || !s_scriptExec) {
         char miss[256];
@@ -289,9 +345,10 @@ void InstallAutomationHook() {
     s_enabled = true;
     char line[512];
     _snprintf_s(line, sizeof(line), _TRUNCATE,
-                "automation ON (poll=%lums telemetry=%lums engineExec=%d) "
-                "dispatch=APlayerController::Tick cmds=%s",
-                s_pollMs, s_telemetryMs, s_engineExecOk ? 1 : 0, s_cmdPath);
+                "automation ON (poll=%lums telemetry=%lums engineExec=%d "
+                "cheatVtbl=%d) dispatch=APlayerController::Tick cmds=%s",
+                s_pollMs, s_telemetryMs, s_engineExecOk ? 1 : 0,
+                s_cheatVtbl != nullptr, s_cmdPath);
     Log(line);
     AppendLog("=== automation session start ===");
     AppendLog(line);
